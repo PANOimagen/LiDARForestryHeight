@@ -32,7 +32,7 @@ To use this plugin you need LasPy:
 
 KeyWords = Forest, Forestry, Digital Terrain Model, DTM, Digital Elevation Model, DEM, Digital Surface Model, DSM, LiDAR, Heights, Raster, GeoTif, Python3, QGIS3
 
-LiDAR Forestry Height license:
+LiDAR Forestry Heights license:
 
     Copyright (C) 2019  by PANOimagen S.L.
 
