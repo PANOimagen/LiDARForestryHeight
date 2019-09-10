@@ -23,7 +23,7 @@ repository=http://repo
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-# changelog=
+# changelog= 0.2 : Added LasPyNotFoundException instead of ModuleNotFoundError
 
 # Tags are comma separated with spaces allowed
 tags=Forest, Forestry, Digital Terrain Model, DTM, Digital Elevation Model, DEM, Digital Surface Model, DSM, LiDAR, Heights, Raster, GeoTif, Python3, QGIS3
