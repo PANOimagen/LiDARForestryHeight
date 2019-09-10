@@ -21,11 +21,11 @@ To use this plugin you need LasPy:
   To install LasPy Library, you must launch the following lines at OSGEO Shell (OSGeo4W.bat at QGIS installation folder):
   > By default OSGeo console runs with Python 2, you need to configure  the console to run with Python 3, so launch, from QGIS installation folder (Windows):
 
-  >>> bin/py3_env.bat
+  > bin\py3_env.bat
   
-  >>> bin/qt5_env.bat
+  > bin\qt5_env.bat
   
-  >>> python -m pip install laspy
+  > python -m pip install laspy
     
   LasPy documentation is avaible at: *https://github.com/laspy/laspy*
   
