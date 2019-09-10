@@ -37,15 +37,14 @@ logger.setLevel(logging.DEBUG)
 from qgis.core import Qgis, QgsRasterLayer, QgsProject
 from qgis.gui import QgisInterface, QgsMessageBar
 
+from .lfh_errors import LasPyNotFoundError
+
 try:
     from . import plugin_process
     LASPY_INSTALLED = True
-except ModuleNotFoundError as e:
-    if str(e) == u'LasPy is not installed':
-        LASPY_INSTALLED = False
-    else:
-        LASPY_INSTALLED = True
-
+except LasPyNotFoundError as e:
+    LASPY_INSTALLED = False
+    
 from. import files_paths_funs as dir_fns
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(

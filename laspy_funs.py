@@ -28,10 +28,12 @@
 import numpy as np
 import os
 
+from .lfh_errors import LasPyNotFoundError
+
 try:
     import laspy
 except ModuleNotFoundError:
-    raise ModuleNotFoundError(u'LasPy is not installed')
+    raise LasPyNotFoundError
 
 from laspy.file import File
 from laspy.header import Header
