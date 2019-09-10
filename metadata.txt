@@ -10,14 +10,14 @@
 name=LiDAR Forestry Height
 qgisMinimumVersion=3.0
 description=LiDAR Forestry Height generates a DEM with the forest height, calculated from a classified LiDAR point cloud
-version=0.1
+version=0.2
 author=PANOimagen S.L.
 email=info@panoimagen.com
 
 about=LiDAR Forestry Height generates a DEM with the forest height, calculated from a classified LiDAR point cloud. This plugin uses the LasPy Library
 
-tracker=https://github.com/PANOimagen/LiDARForestryHeight/issues
-repository=https://github.com/PANOimagen/LiDARForestryHeight
+tracker=http://bugs
+repository=http://repo
 # End of mandatory metadata
 
 # Recommended items:
@@ -28,7 +28,7 @@ repository=https://github.com/PANOimagen/LiDARForestryHeight
 # Tags are comma separated with spaces allowed
 tags=Forest, Forestry, Digital Terrain Model, DTM, Digital Elevation Model, DEM, Digital Surface Model, DSM, LiDAR, Heights, Raster, GeoTif, Python3, QGIS3
 
-homepage=https://github.com/PANOimagen/LiDARForestryHeight
+homepage=http://homepage
 category=Plugins
 icon=icon.png
 # experimental flag
